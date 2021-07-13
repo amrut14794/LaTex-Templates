@@ -1,0 +1,242 @@
+%-------------------------
+% Resume in Latex
+% Author : Amrut Anantwar
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Amrut Anantwar} \\ \vspace{8pt}
+    \href{mailto:amrut14794@gmail.com}{Email} $|$ 
+    \href{https://www.linkedin.com/in/amrut-anantwar-12398b130}{LinkedIn} $|$
+    \href[pdfnewwindow=true]{https://github.com/amrut14794}{GitHub} $|$
+    \href{https://sitecorelearnerspoint.blogspot.com/}
+     {Blog} $|$
+     \small Contact Details: +91-9867697018
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Mumbai University}{Mumbai, India}
+      {Bachelor of Engineering in Electronics and Telecommunication, 6.85/10}{Aug. 2012 -- Aug 2016}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Senior Associate Consultant (Technology Analyst)}{Oct 2019 -- Present}
+      {Infosys Ltd.}{Pune, India}
+      \resumeItemListStart
+      \resumeItem {\underline{Code Development}}
+        \begin{itemize}
+        \item{Created web applications using ASP.NET MVC - C\#, HTML, CSS, JavaScript \& JQuery.}
+        \item{Integrated the web application with Sitecore - A Web Content Management System tool.}
+         \item{Created Web APIs and hosted them in Azure App Service}
+         \item{Used third-party tools such as Postman, Swagger.}
+         \item {Worked on Azure Blob Storage.}
+        \item{Used Helix Architecture as the Design Pattern}
+        \item{Designed page components using Sitecore Renderings, Template items, Static and Dynamic bindings, Workflows, validation rules, Sitecore API, Roles \& Authorization}
+        \item{Implemented Sitecore Personalization, made the code Sitecore Experience Editor friendly, made use of ORM tools (Glass Mapper and Synthesis)}
+        \item{Created Sitecore Forms, custom Sitecore Pipelines (URL shortening)}
+        \item{Implemented Sitecore Analytics.}
+        \item{Integrated Application Insights to monitor and measure the performance of the application}
+        \item{Implemented lazy loading of images using JavaScript to improve the performance of the web application.}
+        \item{Created various graphs such as Bar chart, Line chart, Pie chart using D3.js}
+        \end{itemize}
+        \resumeItem {\underline{Deployment Activities}}
+        \begin{itemize}
+        \item{Bundling and Minification of .css and .js files using a tool from Visual Studio Marketplace.}
+        \item{Used Git as a version control system.}
+        \item{Sitecore Serialization Tools: Unicorn, TDS (Team Development for Sitecore)}
+        \item{Sitecore Package Creation}
+        \item{Hosted the application in Microsoft Azure using both IaaS and PaaS services of Azure (Azure VMs, Azure SQL, Azure Storage, Load Balancer, etc.)}
+        \item{Created CI/CD Pipelines using Azure Repos, Azure Pipelines.}
+        \item{Created CI/CD Pipelines using Azure Repos, Jenkins and Azure Release Pipelines.}
+        \end{itemize}
+        \resumeItem {\underline{Other Responsibilities}}
+        \begin{itemize}
+        \item {Team Leader of my Project (For Pune Development Center)}
+        \item {Handling the clients.}
+        \item {Worked on POCs (Proof of Concepts) for RFPs, Providing estimations for web application development, taking .Net and Sitecore Interviews.}
+        \item {Infosys Learning Portal - Author of some Sitecore courses}
+        \end{itemize}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Associate Consultant(Senior Software Developer)}{Mar 2017 -- Oct 2019}
+      {Capgemini Ltd.}{Pune, India}
+      \resumeItemListStart
+      \resumeItem {\underline{Code Development}}
+      \begin{itemize}
+        \item{Involved in multiple web application development in C\#, SharePoint, Sitecore}
+        \item{Worked on Sitecore v7.2 \& v8.2}
+        \item{Created components using ASP.NET, HTML, CSS, JavaScript}
+        \item{Created multiple workflows in Nintex that were integrated with SharePoint 2010}
+        \item{Worked on Entity Framework}
+        \end{itemize}
+    \resumeItem {\underline{Deployment Activities}}
+    \begin{itemize}
+        \item{Manual Deployment}
+        \item{Sitecore Package Installation}
+    \end{itemize}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C\#, JavaScript, HTML, CSS, SQL, Core Java} \\
+     \textbf{Frameworks}{: .Net, React} \\
+     \textbf{Developer Tools}{: VS Code, Azure Cloud Platform, Visual  Studio, LaTex, Eclipse} \\
+     \textbf{Version Control Systems}{: Git, TFS} \\
+    }}
+ \end{itemize}
+
+%-----------LICENSES AND CERTIFICATIONS-----------
+\section{Licenses and Certifications}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sitecore Experience Solution 9 Developer Certification}{May 2021}{\href{https://learning.sitecore.com/award/certification/d64b5497-4788-3b2b-b4c0-71ac204ef6ec/view-ext}{Credentials}}{}
+      \resumeSubheading
+      {Microsoft Certified: DevOps Engineer Expert}{ Apr 2021}{\href{https://www.credly.com/badges/43461714-5924-4ce1-b231-e742ec9b5718?source=linked_in_profile}{Credentials}}{}
+      \resumeSubheading
+      {Microsoft Certified: Azure Developer Associate}{Mar 2021}{\href{https://www.youracclaim.com/badges/d1518a31-e072-4c2c-80e4-267ffba95cb1?source=linked_in_profile}{Credentials}}{}
+      \resumeSubheading
+      {Microsoft Certified: Azure Fundamentals}{Aug 2020}{\href{https://www.youracclaim.com/badges/cb62695b-9303-4210-b261-affc58a5d4d4?source=linked_in_profile}{Credentials}}{}
+      \resumeSubheading
+      {Boxever Advanced Certification}{May 2021}{\href{https://learning.sitecore.com/award/certification/5dcb1058-4c92-3a99-aced-4610f1f0b6f9/view-ext}{Credentials}}{}
+      \resumeSubheading
+      {Hacker Rank - Microsoft C\#}{May 2021}{\href{https://www.hackerrank.com/certificates/740550f472b6}{Credentials}}{}
+      \resumeSubheading
+      {Hacker Rank - SQL Intermediate}{May 2021}{\href{https://www.hackerrank.com/certificates/e019de9ae6a9}{Credentials}}{}
+      \resumeSubheading
+      {Hacker Rank - SQL Basic}{May 2021}{\href{https://www.hackerrank.com/certificates/a83e36150dbf}{Credentials}}{}
+  \resumeSubHeadingListEnd
+
+ 
+ %-----------ACHIEVEMENTS AND AWARDS-----------
+ \section{Achievements/Awards}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rookie of the Unit Award}{Mar 2021}{Infosys Ltd.}{Pune, India}
+      \resumeSubheading
+      {Insta Award}{Apr 2020}{Infosys Ltd.}{Pune, India}
+      \resumeSubheading
+      {Xtra Mile Award}{Aug 2019}{Capgemini Ltd.}{Pune, India}
+      \resumeSubheading
+      {STAR Award}{Jun 2018}{Capgemini Ltd.}{Pune, India}
+  \resumeSubHeadingListEnd
+  
+
+
+
+
+
+
+%-------------------------------------------
+\end{document}
